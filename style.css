@@ -317,6 +317,12 @@ body {
   p {
     text-align: justify;
     line-height: 1.6;
+
+    hl {
+      text-align: justify;
+      background-color: rgba(206, 126, 5, 0.445);
+      line-height: 1.6;
+    } /* To highlight some text */
   }
 }
 
