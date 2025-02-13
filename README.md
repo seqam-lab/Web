@@ -67,8 +67,8 @@
 
     <!-- Full Abstract (Initially Hidden) -->
     <p class="abstract full-abstract" style="display: none;">
-      The full abstract of the word, if you want to highlight some text you can use
-      <hl>The text you want to highlight</hl> 
+      The full abstract of the work, if you want to highlight some text you can use
+      <hl>The text you want to highlight</hl> The rest of the abstract.
         <span class="toggle-abstract show-tldr" style="display: none;">(Show TL;DR)</span>
     </p>
 
