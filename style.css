@@ -286,6 +286,14 @@ body {
 
 
 /* Publications Section */
+
+/* Ensure .pub-container expands to fit the floated image */
+.pub-container::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
 .pub-container {
   max-width: 1300px;
   min-width: 1000px;
@@ -334,8 +342,8 @@ body {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   object-fit: cover;
   float: left;
-  margin: 15px;
-}
+  margin-right: 15px;
+}        
 
 /* Keywords Section */
 .pub-keywords {
@@ -368,4 +376,5 @@ body {
 
 /* TODO！！！！！！！ */
 /* Another section maybe, like alumni and contact */
-/* website icon design and employ, a circle */
+/* make the pub image clickable */
+/* make the people image clickable */
